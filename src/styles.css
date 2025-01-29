@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --font-Manrope: "Manrope", "sans-serif";
+    --font-SpaceMono: "Space Mono", "sans-serif";
+}
+
+* {
+    font-family: var(--font-Manrope)
+}
