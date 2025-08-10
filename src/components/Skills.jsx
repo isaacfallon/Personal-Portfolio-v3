@@ -4,7 +4,7 @@ function Skills() {
     return (
         <>
             <div className="text-center pt-4 w-1/3 m-auto" id="skills">
-                <h2 className="text-4xl font-bold">SKILLS</h2>
+                <h2 className="text-4xl font-bold">KEY SKILLS</h2>
                 <ul className="flex justify-center gap-3 text-lg flex-wrap px-12 py-4">
                     <li className={skillStyleFront}>JavaScript</li>
                     <li className={skillStyleFront}>React</li>

@@ -9,7 +9,7 @@ function About() {
             <div className="text-center m-auto">
                 <h1 className="text-7xl font-bold text-slate-800 pt-6">Hi, I&apos;m <span className="text-sky-700">Isaac Fallon.</span></h1>
                 <h2 className="text-3xl py-8">Digital Communications Specialist & Developer.</h2>
-                <p className="m-auto w-2/7 text-lg">I&apos;ve spent the last six years crafting engaging experiences and maintaining digital platforms for some of the biggest companies in Australia.</p>
+                <p className="m-auto w-3/7 text-lg">Digital Communications Specialist with a unique background in web development, corporate communications, and stakeholder engagement. I use data-driven strategies and creative problem-solving to plan and execute digital solutions that boost engagement and drive positive sentiment.</p>
             </div>
             <header className="flex justify-center w-1/2 m-auto">
             <div className="flex justify-around py-6 gap-8">
