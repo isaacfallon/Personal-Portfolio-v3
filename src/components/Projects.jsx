@@ -17,7 +17,7 @@ function Projects() {
                 <h2 className="text-4xl font-bold">PROJECTS</h2>
                 <div className="flex justify-center gap-4 py-4">
 
-                    <div className="h-75 w-75 flex-initial hover:-translate-y-2 ease-in-out transition delay-100 duration-200 cursor-pointer p-6 rounded-md shadow-md bg-slate-200">
+                    <div className="w-75 flex-initial hover:-translate-y-2 ease-in-out transition delay-100 duration-200 cursor-pointer p-6 rounded-md shadow-md bg-slate-200">
 
                         <h3 className="text-2xl font-bold">Keyboard Warriors</h3>
                         <p className="pt-2">Challenge and improve your typing skills by getting data-driven insights you can save to your own profile.</p>
@@ -39,42 +39,40 @@ function Projects() {
 
                     </div>
 
-                        <div className="h-75 w-75 flex-initial hover:-translate-y-2 ease-in-out transition delay-100 duration-200 cursor-pointer p-6 rounded-md shadow-md bg-slate-200">
+                        <div className="w-75 flex-initial hover:-translate-y-2 ease-in-out transition delay-100 duration-200 cursor-pointer p-6 rounded-md shadow-md bg-slate-200">
 
-                        <h3 className="text-2xl font-bold">SQL Employee DB</h3>
-                        <p className="pt-2">Store and update useful employee data in this user-friendly SQL employee tracker.</p>
+                        <h3 className="text-2xl font-bold">Tech Blog</h3>
+                        <p className="pt-2">Discuss all things tech with people from all over the world using this engaging blogging website.</p>
                         <ul className="flex justify-center gap-2 text-sm flex-wrap py-4">
-                            <li>PostgreSQL</li>
                             <li>Node.js</li>
-                            <li>Inquirer</li>
+                            <li>Express.js</li>
+                            <li>Handlebars.js</li>
+                            <li>Sequelize</li>
                         </ul>
                         <div className="flex justify-center gap-6">
-                        <a className={iconHoverStyle} href="https://github.com/isaacfallon/12-Challenge-SQL-Employee-Tracker" target="_blank" rel="noreferrer">
+                        <a className={iconHoverStyle} href="https://github.com/isaacfallon/14-Challenge-Tech-Blog" target="_blank" rel="noreferrer">
                                             <FontAwesomeIcon icon={faGithub} />
                                         </a>
-                                        <a className={iconHoverStyle} href="https://drive.google.com/file/d/1B18A_t_GiyjzOOwG9Y9XMUJJuH0E3UwJ/view" target="_blank" rel="noreferrer">
-                                            <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
-                                            
-                                        </a>
+                                        
                                         </div>
 
                     </div>
 
-                        <div className="h-75 w-75 flex-initial hover:-translate-y-2 ease-in-out transition delay-100 duration-200 cursor-pointer p-6 rounded-md shadow-md bg-slate-200">
+                        <div className="w-75 flex-initial hover:-translate-y-2 ease-in-out transition delay-100 duration-200 cursor-pointer p-6 rounded-md shadow-md bg-slate-200">
 
-                        <h3 className="text-2xl font-bold">Kanban Task Board</h3>
-                        <p className="pt-2">Stay organized and on schedule with this color-coded, deadline-focused kanban board tracker.</p>
+                        <h3 className="text-2xl font-bold">Weather & Wiki</h3>
+                        <p className="pt-2">Pull in relevant weather and wikipedia content for your city of choice in one convenient dashboard. </p>
                         <ul className="flex justify-center gap-2 text-sm flex-wrap py-4">
                             <li>JavaScript ES6+</li>
-                            <li>Bootstrap</li>
-                            <li>jQuery</li>
-                            <li>Day.js</li>
+                            <li>Bulma CSS</li>
+                            <li>DayJS</li>
+                            <li>OpenWeather API</li>
                         </ul>
-                        <div className="flex justify-center gap-6">
-                        <a className={iconHoverStyle} href="https://github.com/isaacfallon/Kanban-Task-Board/" target="_blank" rel="noreferrer">
+                        <div className="flex gap-6 justify-center">
+                        <a className={iconHoverStyle} href="https://github.com/isaacfallon/CityWeather-Insight" target="_blank" rel="noreferrer">
                                             <FontAwesomeIcon icon={faGithub} />
                                         </a>
-                                        <a className={iconHoverStyle} href="https://isaacfallon.github.io/Kanban-Task-Board/" target="_blank" rel="noreferrer">
+                                        <a className={iconHoverStyle} href="https://isaacfallon.github.io/CityWeather-Insight/" target="_blank" rel="noreferrer">
                                             <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                                             
                                         </a>
