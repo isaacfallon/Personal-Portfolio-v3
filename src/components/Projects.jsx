@@ -31,7 +31,7 @@ function Projects() {
                         <a className={iconHoverStyle} href="https://github.com/isaacfallon/Project-3-Keyboard-Warriors" target="_blank" rel="noreferrer">
                                             <FontAwesomeIcon icon={faGithub} />
                                         </a>
-                                        <a className={iconHoverStyle} href="https://keyboardwarriors.site/" target="_blank" rel="noreferrer">
+                                        <a className={iconHoverStyle} href="https://keyboard-warriors.onrender.com/" target="_blank" rel="noreferrer">
                                             <FontAwesomeIcon icon="fa-solid fa-arrow-up-right-from-square" />
                                             
                                         </a>
